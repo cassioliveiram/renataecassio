@@ -1032,6 +1032,14 @@ form label {
 }
 
 .heart {
+  position: absolute;
+  top: 4em;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  animation: pulse 1s ease infinite;
+}
+.heart-mobile {
   position: center;
   top: 4em;
   left: 0;
@@ -1049,8 +1057,25 @@ form label {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-@media screen and (max-width: 339px) {
+.heart-mobile i {
+  font-size: 20px;
+  background: #fff;
+  padding: 20px;
+  color: #F14E95;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
   .heart {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .heart-mobile {
     display: none;
   }
 }
