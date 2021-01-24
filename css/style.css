@@ -1032,7 +1032,7 @@ form label {
 }
 
 .heart {
-  position: absolute;
+  position: center;
   top: 4em;
   left: 0;
   right: 0;
@@ -1049,7 +1049,7 @@ form label {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 339px) {
   .heart {
     display: none;
   }
