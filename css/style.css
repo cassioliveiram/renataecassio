@@ -1134,6 +1134,12 @@ form label {
   padding-right: 180px;
   text-align: right;
 }
+
+.couple-half .desc-groom-center {
+  padding-right: 180px;
+  text-align: center;
+}
+
 .couple-half .desc-bride {
   padding-left: 180px;
   text-align: left;
